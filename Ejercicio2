@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout de Dos Columnas con Float</title>
+<style>
+  .column {
+    float: left;
+    width: 30%;
+    background-color: #00ffe1;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  /* Clearfix para manejar flotadores */
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="column">
+    <h2>A</h2>
+  </div>
+  <div class="column">
+    <h2>B</h2>
+  </div>
+  <div class="column">
+    <h2>C</h2>
+  </div>
+  <div class="column">
+    <h2>D</h2>
+  </div>
+  <div class="column">
+    <h2>E</h2>
+  </div>
+  <div class="column">
+    <h2>F</h2>
+  </div>
+  <div class="column">
+    <h2>G</h2>
+  </div>
+  <div class="column">
+    <h2>H</h2>
+  </div>
+  <div class="column">
+    <h2>I</h2>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout de Dos Columnas con Float</title>
+<style>
+
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden; /* Para clearfix */
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #00ffa69a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8p
+    x rgb(255, 0, 187);
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  /* Colores para cada columna */
+  .column:nth-child(odd) {
+    background-color: #2416ed; /* gris claro */
+  }
+  .column:nth-child(even) {
+    background-color: #d8bd10; /* gris medio */
+  }
+</style>
