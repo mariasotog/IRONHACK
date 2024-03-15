@@ -1,0 +1,158 @@
+@media only screen and (min-width: 480px){
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgb(167, 8, 127);
+        background-color: rgba(253, 119, 246, 0.61);
+    }
+    body{
+        background-color: rgb(255, 233, 255);
+    }
+    .Starters{
+        display: none;
+    }
+    .link{ 
+        padding:10px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+    #imagenes{ 
+        width: 100%;
+    }
+    .todo{
+        display:flex;
+        padding-top: 20px; 
+        column-gap: 30px;
+    }
+    .columna{
+        display: flex;
+    }
+    .todoo{
+        display:flex;
+        padding-top: 20px;
+    }
+    .tipos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .botones1{
+        display: flex;
+        width: 35%;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgb(255, 202, 252);
+    }
+    .botones2{
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 10px;
+        background-color: rgb(255, 202, 252);
+    }
+    .boton3{
+        margin-top: 5px;
+        padding: 10px;
+        background-color: rgb(255, 202, 252);
+    }
+    .tipos2{
+        display:flex;
+        flex-direction: column;
+        align-items:end;
+        margin: 10px;   
+    } 
+    .link3{
+        display:none;
+    }
+    }
+    @media only screen and (max-width: 480px) {
+        .titulo{
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgba(253, 119, 246, 0.61);
+            color: rgb(167, 8, 127);
+            border-radius: 8px;
+        }
+        .Starters{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 20px;
+            color:rgb(170, 13, 118)
+        }
+        .primero{ 
+            display:flex;
+            justify-content: space-around;
+            padding: 10px;
+
+        }
+        body{
+            background-color: rgb(255, 219, 255);
+        }
+        .orquideaa{
+            display:flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            text-align: justify;        
+            width: 50%;
+        }
+        .Bromelia{
+            display:flex;
+            justify-content: flex-end;
+            text-align: justify;
+        }   
+        .second{
+            width: 50%;
+        }
+        .mandevilla{
+            display:flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            text-align: justify;        
+            width: 50%;
+        }
+        #imagenes{ 
+            width: 100%;
+            
+        }
+        .todo2{
+            display:none;
+        }   
+        .link2{
+            display: none;
+        }
+        .botones1{
+            display: none;
+        }
+        .botones2{
+            display: none;
+        }
+        .boton3{
+            display: none;
+        }
+        .tipos{
+            display: none;
+        }
+        .tipos2{
+            display: none;
+        }
+        .third{
+            display: none;
+        }
+        .link3{
+            display:flex;
+            flex-direction: column;
+            align-items: end;
+            margin-top: 20px;
+        }
+
+    }
+    
+    
